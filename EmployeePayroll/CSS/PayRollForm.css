@@ -1,0 +1,47 @@
+﻿body {
+}
+/*.drop{
+    position:relative;
+    right:-250px;
+}*/
+.container{
+    position:relative;
+    right:-350px;
+}
+.nametext{
+    position:relative;
+    right:-100px;
+}
+.genderpart {
+    position: relative;
+    right: -95px;
+}
+.departmentpart {
+    position: relative;
+    right: -70px;
+}
+.salarypart {
+    position: relative;
+    right: -105px;
+}
+.startpart {
+    position: relative;
+    right: -90px;
+}
+.notepart {
+    position: relative;
+    right: -110px;
+}
+.submitbut {
+    position: relative;
+    right: -70px;
+}
+.resetbut {
+    position: relative;
+    right: -170px;
+}
+.imagepart {
+    position: relative;
+    right: -50px;
+}
+
