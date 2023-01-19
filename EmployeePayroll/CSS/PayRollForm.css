@@ -42,6 +42,11 @@
 }
 .imagepart {
     position: relative;
-    right: -50px;
+    right: -200px;
+    top: -6px;
+}
+.imagediv{
+    position:relative;
+    right: -20px;
 }
 

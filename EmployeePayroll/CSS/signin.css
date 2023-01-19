@@ -1,0 +1,14 @@
+﻿body {
+}
+.container{
+    position:relative;
+    margin:200px 300px;
+}
+.emailtab{
+    position:relative;
+    left:100px;
+}
+.passwoedtab {
+    position: relative;
+    left: 100px;
+}

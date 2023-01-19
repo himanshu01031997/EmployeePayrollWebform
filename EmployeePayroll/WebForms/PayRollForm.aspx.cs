@@ -83,6 +83,7 @@ namespace EmployeePayroll.WebForms
                 Session["data"] = datareader;
                 Label8.Text = "!!!Payform detail inserted sucessfully into database!!!";
                 Label8.ForeColor = System.Drawing.Color.Green;
+                Response.Redirect("HomePage.aspx");
 
             }
             else

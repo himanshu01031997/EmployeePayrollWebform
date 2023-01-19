@@ -106,12 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Asset\Ellipse -1.png" />
-    <Content Include="Asset\Ellipse -2.png" />
-    <Content Include="Asset\Ellipse -3.png" />
-    <Content Include="Asset\Ellipse -4.png" />
-    <Content Include="Asset\Ellipse -5.png" />
-    <Content Include="Asset\female.jpg" />
+    <Content Include="Asset\icons\add-24px.svg" />
+    <Content Include="Asset\icons\delete-black-18dp.svg" />
+    <Content Include="Asset\icons\update-black-18dp.svg" />
+    <Content Include="Asset\Image\Ellipse -1.png" />
+    <Content Include="Asset\Image\Ellipse -2.png" />
+    <Content Include="Asset\Image\Ellipse -3.png" />
+    <Content Include="Asset\Image\Ellipse -4.png" />
+    <Content Include="Asset\Image\Ellipse -5.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -120,6 +122,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="CSS\HomePage.css" />
     <Content Include="CSS\PayRollForm.css" />
+    <Content Include="CSS\signin.css" />
+    <Content Include="CSS\signuppage.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -135,6 +139,8 @@
     <Content Include="Employee.Master" />
     <Content Include="WebForms\HomePage.aspx" />
     <Content Include="WebForms\PayRollForm.aspx" />
+    <Content Include="WebForms\signinaspx.aspx" />
+    <Content Include="WebForms\signuppage.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -239,6 +245,20 @@
     </Compile>
     <Compile Include="WebForms\PayRollForm.aspx.designer.cs">
       <DependentUpon>PayRollForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\signinaspx.aspx.cs">
+      <DependentUpon>signinaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\signinaspx.aspx.designer.cs">
+      <DependentUpon>signinaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\signuppage.aspx.cs">
+      <DependentUpon>signuppage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\signuppage.aspx.designer.cs">
+      <DependentUpon>signuppage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

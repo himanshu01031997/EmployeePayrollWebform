@@ -16,16 +16,13 @@
             </div>
             </br>
             <div  >
-                <asp:Label ID="Label2" runat="server" Text="Profile Image"></asp:Label>
-                <asp:RadioButtonList class="imagepart" ID="RadioButtonList1" runat="server" required="required" CellSpacing="1" RepeatDirection="Horizontal" Height="2px"  Width="2px"  RepeatLayout="Flow">
-                    <asp:ListItem Value="../Asset/Ellipse -1.png"><img src="../Asset/Ellipse -1.png"  alt="img1"/></asp:ListItem>
-                    <asp:ListItem Value="../Asset/Ellipse -2.png"><img src="../Asset/Ellipse -2.png" alt="img2" /></asp:ListItem>
-                    <asp:ListItem Value="../Asset/Ellipse -3.png"><img src="../Asset/Ellipse -3.png" alt="img3" /></asp:ListItem>
-                    <asp:ListItem Value="../Asset/Ellipse -4.png"><img src="../Asset/Ellipse -4.png" alt="img3" /></asp:ListItem>
-                </asp:RadioButtonList>  
+                <asp:Label ID="Label2" runat="server" Text="Profile Image"></asp:Label><asp:RadioButtonList class="imagepart" ID="RadioButtonList1" runat="server"  required="required" CellSpacing="1" RepeatDirection="Horizontal"  Height="2px"  Width="2px"  >
+                    <asp:ListItem Value="../Asset/Image/Ellipse -1.png"><img src="../Asset/Image/Ellipse -1.png"  alt="img1" /></asp:ListItem>
+                    <asp:ListItem Value="../Asset/Image/Ellipse -2.png"><img src="../Asset/Image/Ellipse -2.png" alt="img2" /></asp:ListItem>
+                    <asp:ListItem Value="../Asset/Image/Ellipse -3.png"><img src="../Asset/Image/Ellipse -3.png" alt="img3" /></asp:ListItem>
+                    <asp:ListItem Value="../Asset/Image/Ellipse -4.png"><img src="../Asset/Image/Ellipse -4.png" alt="img3" /></asp:ListItem>
+                </asp:RadioButtonList>                  
                 </div>
-             <br />
-                <br />
                <div>
                    <asp:Label ID="Label3" runat="server" Text="Gender"></asp:Label>
                    <asp:RadioButtonList  class="genderpart" ID="RadioButtonList2" runat="server" RepeatDirection="Horizontal" required="required" CellPadding="1" CellSpacing="1" RepeatLayout="Flow">
@@ -63,7 +60,6 @@
 
                 </div>
                 <br />
-                <br />
                 <div>
                    <asp:Label ID="Label5" runat="server" Text="StartDate"></asp:Label>
                     <asp:DropDownList class="startpart" ID="DropDownList1"  runat="server" Width="80px"  RepeatLayout="Flow" >
@@ -76,7 +72,6 @@
                     </asp:DropDownList>
 
                 </div>
-                </br>
                 </br>
                 <div>
                     <asp:Label ID="Label7" runat="server" Text="Notes" RepeatLayout="Flow"></asp:Label>
@@ -99,6 +94,6 @@
             </div>
         </form>
     </div>
-                     <asp:SqlDataSource ID="SqlDataSource1" runat="server"  ></asp:SqlDataSource>
+                     <%--<asp:SqlDataSource ID="SqlDataSource1" runat="server"  ></asp:SqlDataSource>--%>
 
 </asp:Content>
